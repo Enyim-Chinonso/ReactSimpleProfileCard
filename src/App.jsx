@@ -1,7 +1,7 @@
 import React from "react";
 import ProfileHeader from "./Components/ProfileHeader";
 import ProfileDetails from "./Components/ProfileDetails";
-
+import MyButton from "./Components/MyButton";
 
 
 
@@ -10,9 +10,10 @@ import ProfileDetails from "./Components/ProfileDetails";
 
 const App = () => {
   return (
-    <div>
+    <div align="center">
       <ProfileHeader/>
       <ProfileDetails/>
+      <MyButton/>
     </div>
   );
 }

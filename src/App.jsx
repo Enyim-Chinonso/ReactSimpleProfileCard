@@ -32,25 +32,34 @@
 
 import react from 'react';
 import UserInputs from "./Components/UserInputs";
-import TextArea from './Components/TextArea';
+import TextArea from './Components/Textarea';
 import CarSelect from "./Components/CarSelect";
+import React from 'react';
+import ProfileCard from './Components/ProfileCard';
+import "./ProfileCard.css"
+  // import ProfileCard from './Components/ProfileCard';
 
-function App() {
+// function App() {
+//   return (
+//     <div>
+//       <UserInputs />
+//       <TextArea />
+//       <CarSelect />
+//     </div>
+//   );
+// }
+
+
+
+
+
+const App = () => {
   return (
-    <div>
-      <UserInputs />
-      <TextArea />
-      <CarSelect />
-    </div>
-  );
+    <>
+      {/* <Header /> */}
+      <ProfileCard />
+    </>
+  )
 }
 
 export default App;
-
-
-// export default App;
-
-
-
-
-
